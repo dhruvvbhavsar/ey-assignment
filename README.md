@@ -254,19 +254,3 @@ docker-compose down -v
 docker system prune -f
 docker-compose up --build
 ```
-
-## 📝 Production Considerations
-
-For production deployment:
-
-1. **Change SECRET_KEY** - Use a strong, unique secret
-2. **Enable HTTPS** - Configure SSL/TLS
-3. **Update CORS** - Restrict allowed origins
-4. **Use managed database** - Consider AWS RDS, etc.
-5. **Add monitoring** - Prometheus, Grafana
-6. **Set up logging** - ELK stack or similar
-7. **Configure backups** - Regular database backups
-
-## 📄 License
-
-MIT License
