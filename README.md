@@ -143,7 +143,6 @@ ey-assignment/
 │
 ├── docs/screenshots/            # Application screenshots
 ├── docker-compose.yml
-├── Makefile                     # Development commands
 └── README.md
 ```
 
@@ -186,20 +185,6 @@ ey-assignment/
 |----------|-------------|
 | `WS /ws/feed` | Real-time feed updates |
 
-## 🔧 Development Commands
-
-Using the Makefile:
-
-```bash
-make help          # Show all available commands
-make up            # Start services (production)
-make dev           # Start with hot reload
-make down          # Stop services
-make logs          # View all logs
-make logs-backend  # View backend logs only
-make shell-db      # Open PostgreSQL shell
-make clean         # Stop and remove volumes
-```
 
 ## 🐳 Docker Commands
 
